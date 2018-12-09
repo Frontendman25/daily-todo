@@ -1,0 +1,50 @@
+.edit, .delete {
+  margin-left: 10px;
+}
+
+.edit {
+  background-color: orange
+}
+
+.delete {
+  background-color: red
+}
+
+.edit:hover {
+  background-color: orangered !important;
+}
+
+.delete:hover {
+  background-color: darkred !important;
+}
+
+.taskText {
+  margin: 0 auto 20px auto;
+  display: flex;
+  width: 90%;
+}
+
+.taskWrap {
+  margin-right: 5px;
+  flex-grow: 1;
+}
+
+input[name="task"] {
+  width: 100%;
+}
+
+.task {
+  width: 90%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskAbout {
+  border-radius: 5px;
+  padding: 6px 5px 6px 5px;
+  background: #add8e6;
+  line-height: 1;
+  color: #fff;
+}
